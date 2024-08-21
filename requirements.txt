@@ -1,5 +1,5 @@
-pandas
-numpy
-seaborn
+pymongo==4.2.0
 
--e .
+
+
+-e . # edited mode(No need to run setup.py)
