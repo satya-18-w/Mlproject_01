@@ -2,10 +2,13 @@ from setuptools import find_packages,setup
 from typing import List
 
 
-def get_requirements()->list[str]:#return list of string
-    requirements_list=list[str]=[]
+def get_requirements()->List[str]:#return list of string
+    requirements_list=[] # initializing the empty list
+    with open("requirements.txt","r") as file:
+        requirements_list=file.readlines()
+    return [req.strip() for req in requirements_list if req.strip()]    
     
-    return requirements_list
+    
 
 
 
