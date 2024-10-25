@@ -2,6 +2,10 @@ pymongo==4.2.0
 pandas==1.3.0
 scikit-learn==0.24.2
 matplotlib
+seaborn
+ipykernel
+seaborn
+xgboost
 -e .
 
 # edited mode(No need to run setup.py)
