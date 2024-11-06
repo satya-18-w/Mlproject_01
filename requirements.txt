@@ -6,6 +6,7 @@ seaborn
 ipykernel
 seaborn
 xgboost
+setuptools
 -e .
 
 # edited mode(No need to run setup.py)
